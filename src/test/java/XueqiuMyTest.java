@@ -2,7 +2,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
-public class XueqiuMy {
+public class XueqiuMyTest {
     @Test
     public void testSearch(){
         //信任https的任何证书

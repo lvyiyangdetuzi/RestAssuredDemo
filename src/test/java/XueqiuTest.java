@@ -3,7 +3,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
-public class Xueqiu {
+public class XueqiuTest {
     @Test
     public void testSearch(){
         //信任https的任何证书
@@ -28,12 +28,7 @@ public class Xueqiu {
                 .body("stocks.code",hasItems("SOGO"));
     }
 
-    @Test
-    public void testlogin(){
 
-
-
-    }
 
 
 }
